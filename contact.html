@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>РЕТА</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="jquery.js"></script>
+  <!--[if lt IE 9]> 
+   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+  <![endif]-->
+ </head>
+ <body>
+ <div id="wrapper">
+  <header id="header">
+   <div class="logo">
+    <a href="/"><img src="css/img/reta.png" alt="RETA"></a>
+   </div>
+   <nav>
+    <a href="index.html">ГЛАВНАЯ</a> | <a href="blog.html">БЛОГ</a> | <a href="services.html">УСЛУГИ</a> | <a href="gallery.html">ГАЛЕРЕЯ</a> | <a class="p-act" href="contact.html">КОНТАКТЫ</a>
+   </nav>
+   <div class="tel">
+    <h1><img src="css/img/phone.png">+7(950)773-68-57 <br> +7(950)770-48-62</h1>
+   </div>
+  </header>
+  <article id="content">
+   <div class="prom">
+    <div class="prom-cont">
+      <h1>КОНТАКТЫ</h1>
+      <div class="blog-cont">
+        <article class="post">
+          <p>394002, Воронеж,</p>
+          <p>пр-т. Революции, 19, ауд. 015</p>
+          <p>Тел. +7 (4732) 55-42-67</p>
+          <p>Факс +7 (4732) 55-42-67</p>
+          <div id="ymaps-map-id_13504018934381966516" style="width: 450px; height: 250px;"></div>
+          <div style="width: 350px; text-align: right;"><a href="http://api.yandex.ru/maps/tools/constructor/index.xml" target="_blank" style="color: #1A3DC1; font: 13px Arial, Helvetica, sans-serif;"><!-- Создано с помощью инструментов Яндекс.Карт --></a></div>
+          <script type="text/javascript">
+function fid_13504018934381966516(ymaps) {
+    var map = new ymaps.Map("ymaps-map-id_13504018934381966516", {
+        center: [39.2111614761963, 51.67808022453385],
+        zoom: 14,
+        type: "yandex#map"
+    });
+    map.controls
+        .add("zoomControl")
+        .add("mapTools")
+        .add(new ymaps.control.TypeSelector(["yandex#map", "yandex#satellite", "yandex#hybrid", "yandex#publicMap"]));
+    map.geoObjects
+        .add(new ymaps.Placemark([39.214132648703675, 51.674990588268216], {
+            balloonContent: "ВГУИТ"
+        }, {
+            preset: "twirl#nightDotIcon"
+        }));
+};
+          </script>
+          <script type="text/javascript" src="http://api-maps.yandex.ru/2.0-stable/?lang=ru-RU&coordorder=longlat&load=package.full&wizard=constructor&onload=fid_13504018934381966516"></script>
+        </div>
+      </article>
+      <div class="prom2"></div>
+    </div>
+  </div>
+ <footer id="footer">
+  <div class="foot-cont">
+   <div class="logo-dub"><a href="/"><img src="css/img/reta-dub.png" alt="RETA"></a></div>
+   <ul>
+    <!-- <li><b>Информация</b></li>
+    <li><a href="/">Контакты</a></li>
+    <li><a href="/">О нас</a></li>
+    <li><a href="/">Карьера</a></li>
+   </ul>
+   <ul>
+    <li><b>Карта сайта</b></li>
+    <li><a href="/">Главная</a></li>
+    <li><a href="/">Блог</a></li>
+    <li><a href="/">Услуги</a></li>
+    <li><a href="/">Галерея</a></li>
+    <li><a href="/">Контакты</a></li>
+   </ul>
+   <ul>
+    <li><b>Сообщества</b></li>
+    <li><a href="/">Вконтакте</a></li>
+    <li><a href="/">Твиттер</a></li>
+    <li><a href="/">Facebook</a></li> -->
+   </ul>
+  </div>
+ </footer>
+ </body>
+</html>
